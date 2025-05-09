@@ -86,6 +86,11 @@
         <h1 id="time2"></h1>
         <h2 id="upload_status" style="display: none;"></h2>
         <button id="new_game" style="font-size: x-large;" onclick="generate_map(last_rows, last_cols)"></button>
+        <span style="font-size: larger; margin: 1em auto 0.75em auto;">
+          <a id="scoreboard2" class="link" href="https://github.com/plazum/find-keke/issues/10" target="_blank"></a>
+          <a id="scoreboard_search2" class="link" href="scoreboard" onclick="open_dialog('scoreboard_dialog'); return false;"></a>
+        </span>
+        <a id="github" class="link" style="margin-bottom: 1em;" href="https://github.com/plazum/find-keke" target="_blank"></a>
         <video id="good_video" style="margin: auto;" src="good.mp4" loop></video>
       </div>
       <div id="bubu">
@@ -98,6 +103,10 @@
           <label lang="zh"><input id="zh" type="radio" name="language" onchange="set_language('zh')">中文</label>
           <label lang="ja"><input id="ja" type="radio" name="language" onchange="set_language('ja')">日本語</label>
           <label lang="en"><input id="en" type="radio" name="language" onchange="set_language('en')">English</label>
+        </span>
+        <span id="scoreboard_and_search" style="display: none margin-bottom: 0.75em;">
+          <a id="scoreboard" class="link" href="https://github.com/plazum/find-keke/issues/10" target="_blank"></a>
+          <a id="scoreboard_search" class="link" href="scoreboard" onclick="open_dialog('scoreboard_dialog'); return false;"></a>
         </span>
         <span style="margin-bottom: 0.75em;">
           <span id="filter"></span>
